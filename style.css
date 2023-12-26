@@ -372,3 +372,34 @@ body {
     padding: 10px 25px;
     border-radius: 5px;
 }
+
+.packing_list {
+   background-color: #fff;
+}
+
+.sub_packing {
+    text-align: center;
+}
+
+.sub_packing h2 {
+    color: #323941;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 50px 0 25px 0;
+}
+
+.packing_img {
+    transform: rotate(-5deg);
+}
+
+.packing_video {
+    background-color: #C4C4C4;
+    padding: 50px 0 50px 0;
+}
+
+.packing_video p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 10px;
+}
