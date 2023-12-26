@@ -235,3 +235,140 @@ body {
     font-size: 14px;
     margin-top: 10px;
 }
+
+.segway_table2 {
+     border: #999999 solid 5px;
+     margin-top: 20px;
+     text-align: center;
+     padding: 15px;
+}
+
+.segway_title {
+    color: #323941;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.segway_title span {
+    color: #323941;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.text_table2-1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text_table2-1 div {
+    border: #999999 solid 1px;
+    padding: 5px 20px 5px 20px;
+}
+
+.text_table2-1 p {
+    color: #323941;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.text_table2-1 p + p {
+    color: #009EFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.segway_price1 {
+    color: #323941;
+    font-weight: 300;
+    font-size: 22px;
+    text-decoration: line-through;
+}
+
+.segway_price2 {
+    color: #323941;
+    font-weight: 700;
+    font-size: 38px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.to_buy {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.to_buy p {
+    color: #fff;
+    background-color: #009EFF;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+}
+
+.payment {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.payment_title {
+    color: #323941;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.payment_img {
+    margin: 10px 0 10px 0;
+}
+
+.payment_text p {
+    color: #009EFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.payment_text span {
+    color: #060809;
+}
+
+.payment_text p + p {
+    color: #6ACD68;
+}
+
+.shipping {
+    background-color: #f8f8f8 ;
+}
+
+.sub_shipping {
+    text-align: center;
+}
+
+.sub_shipping img {
+    margin-top: 40px;
+}
+
+.sub_shipping h2 {
+    color: #323941;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 20px 0 10px 0;
+}
+
+.sub_shipping p {
+    color: #999999;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.shipping_img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shipping_img img {
+    background-color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
