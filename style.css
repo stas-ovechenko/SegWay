@@ -374,7 +374,7 @@ body {
 }
 
 .packing_list {
-   background-color: #fff;
+    background-color: #fff;
 }
 
 .sub_packing {
@@ -402,4 +402,70 @@ body {
     font-weight: 300;
     font-size: 16px;
     margin-top: 10px;
+}
+
+.accessories {
+    background-color: #fff;
+}
+
+.sub_accessories h2 {
+    color: #323941;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    margin: 50px 0 25px 0;
+}
+
+.accessories_price {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.accessories_price img {
+    height: 128px;
+}
+
+.accessories_price img + img {
+    height: 138px;
+}
+
+.accessories_price h3 {
+    color: #323941;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 0 10px 0;
+}
+
+.accessories_price p:nth-child(3) {
+    color: #999999;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+
+.price p {
+    color: #999999;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.price p + p {
+    color: #323941;
+}
+
+.accessories_price div > p:nth-child(5) {
+    color: #fff;
+    text-align: center;
+    background-color: #009EFF;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    font-weight: 400;
+    font-size: 16px;
+
 }
