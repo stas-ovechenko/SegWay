@@ -413,7 +413,7 @@ body {
     font-weight: 700;
     font-size: 28px;
     text-align: center;
-    margin: 50px 0 25px 0;
+    margin: 25px 0 25px 0;
 }
 
 .accessories_price {
@@ -468,4 +468,60 @@ body {
     font-weight: 400;
     font-size: 16px;
 
+}
+
+.back_fon {
+    background: no-repeat center center url(/image/back_fon.jpg);
+    background-size: cover;
+}
+
+.sub_back_fon {
+    width: 577px;
+    height: 406px;
+}
+
+.impressive_features {
+    background-color: #f8f8f8;
+}
+
+.sub_impressive h2 {
+    text-align: center;
+    color: #323941;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 30px 0 30px 0;
+}
+
+.sub_features1,
+.sub_features2 {
+    margin-bottom: 25px;
+}
+
+.features_img1,
+.features_img2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.features_text1,
+.features_text2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.features_text1 p,
+.features_text2 p {
+    color: #009EFF;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.features_text1 p + p,
+.features_text2 p + p {
+    color: #999999;
+    font-size: 12px;
 }
