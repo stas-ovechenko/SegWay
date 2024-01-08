@@ -50,7 +50,7 @@ table {
 
 
 
-#body.lock {
+#body.block {
     overflow: hidden;
 }
 
@@ -63,6 +63,7 @@ body {
     position: fixed;
     z-index: 50;
     width: 100%;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
 }
 
 .container {
@@ -578,7 +579,7 @@ body {
 .management_system {
     height: 291px;
     background: url(image/management_system.jpg);
-    box-shadow: inset 0 -50px 50px rgb(0 0 0);
+    box-shadow: inset 0 -50px 60px rgb(0 0 0);
     background-size: cover;
     background-position: center;
 }
@@ -602,4 +603,120 @@ body {
     font-size: 15px;
     margin: 10px 0 40px 0;
     letter-spacing: 1px;
+}
+
+.dual_braking_system {
+    background: url(image/braking_system.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 351px;
+}
+
+.text_braking_system {
+    background-color: #fff;
+}
+
+.sub_text_braking h2 {
+    color: #323941;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.sub_text_braking p {
+    color: #323941;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.sub_text_braking p:nth-child(2) {
+    margin: 10px 0 10px 0;
+}
+
+.front_led_light {
+    height: 291px;
+    background: url(image/front_led_light.jpg);
+    box-shadow: inset 0 -50px 60px rgb(0 0 0);
+    background-size: cover;
+    background-position: center;
+}
+
+.text_led_light {
+    background: radial-gradient(rgba(21,29,55,1), #000);
+    box-shadow: inset 0 10px 25px rgb(0,0,0,1);
+}
+
+.sub_text_light h2 {
+    color: #fff;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+.sub_text_light p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.sub_text_light p:nth-child(2) {
+    margin: 10px 0 10px 0;
+}
+
+.folding_mechanism {
+    background: #fff;
+}
+
+.sub_folding_mechanism {
+    text-align: center;
+}
+
+.sub_folding_mechanism h2 {
+    color: #323941;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.sub_folding_mechanism p {
+    color: #323941;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 10px 0 50px 0;
+}
+
+.sub_folding_mechanism img {
+    width: 100%;
+    height: 205px;
+}
+
+.power_recycle {
+    height: 240px;
+    background: url(image/power_recycle.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.text_power_recycle {
+    background: radial-gradient(rgba(21,29,55,1), #000);
+    box-shadow: inset 0 50px 50px rgb(0,0,0,1);
+}
+
+.sub_text_recycle h2 {
+    color: #fff;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+.sub_text_recycle p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 10px 0 20px 0;
 }
